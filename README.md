@@ -19,7 +19,7 @@ Type ```bt``` and workflow shows the current adapter state and shows you will ha
 
 ### WiFi Adapter
 
-Type ```wifi``` and workflow shows the current adapter state and shows you will happen if you continue. Default WiFi Apdapter Hardware Port is ```en0``` and could be adjusted in a workflow configuration - the ```wifi_hwport``` variable.
+Type ```wifi``` and workflow shows the current adapter state and shows you will happen if you continue.
 
 
 ![Alfred disabled bluetooth](doc/images/wifi-disabled.png?raw=true "")
@@ -27,6 +27,10 @@ Type ```wifi``` and workflow shows the current adapter state and shows you will 
 If WiFi is connected to an access-point, its name will be shown. 
 
 ![Alfred enabled bluetooth](doc/images/wifi-enabled.png?raw=true "")
+
+Default WiFi Apdapter Hardware Port is ```en0``` and could be adjusted in a workflow configuration - the ```wifi_hwport``` variable.
+
+![Alfred enabled bluetooth](doc/images/workflow-configuration.png?raw=true "")
 
 
 
