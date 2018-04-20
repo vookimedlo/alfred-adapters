@@ -308,7 +308,7 @@ if [[ $rc -eq 0 ]]; then
 	rc=$?
 
 	if [[ $rc == 0 ]]; then
-		readonly NET_CONN_STRING=" and connected to the '$NET_SSID'"
+		readonly NET_CONN_STRING=" and connected to the '$NET_SSID'."
 	else
 		readonly NET_CONN_STRING="."
 	fi
@@ -317,7 +317,7 @@ if [[ $rc -eq 0 ]]; then
 			&lt;items&gt;
 				&lt;item uid="" arg="off"&gt;
 					&lt;title&gt;Wi-Fi is enabled'${NET_CONN_STRING}'&lt;/title&gt;
-					&lt;subtitle&gt;Disable Wi-Fi&lt;/subtitle&gt;
+					&lt;subtitle&gt;Disable Wi-Fi.&lt;/subtitle&gt;
 					&lt;icon&gt;icons/Wifi-Off-Icon-Umber.png&lt;/icon&gt;
 				&lt;/item&gt;
 			&lt;/items&gt;'
@@ -328,7 +328,7 @@ else
 			&lt;items&gt;
 				&lt;item uid="" arg="on"&gt;
 					&lt;title&gt;Wi-Fi is disabled.&lt;/title&gt;
-					&lt;subtitle&gt;Enable Wi-Fi&lt;/subtitle&gt;
+					&lt;subtitle&gt;Enable Wi-Fi.&lt;/subtitle&gt;
 					&lt;icon&gt;icons/Wifi-On-Icon-Umber.png&lt;/icon&gt;
 				&lt;/item&gt;
 			&lt;/items&gt;'
